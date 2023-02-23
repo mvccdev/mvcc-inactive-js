@@ -1,0 +1,20 @@
+{
+  "name": "mvcc-inactive",
+  "version": "1.0.0",
+  "description": "A small function used to check if a touchscreen or webpage has been inactive.",
+  "main": "mvcc-inactive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "minify ./src/mvcc-inactive.js > ./dist/mvcc-inactive.min.js"
+  },
+  "keywords": [
+    "mvcc",
+    "JavaScript"
+  ],
+  "author": "Eric Harms",
+  "license": "MIT",
+  "devDependencies": {
+    "minify": "^8.0.3"
+  },
+  "dependencies": {}
+}
