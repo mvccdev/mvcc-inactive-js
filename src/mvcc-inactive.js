@@ -4,7 +4,7 @@
  * @param {number} ms - The milliseconds of inactivity.
  * @param {Object} cb - The callback
  */
-function mvcc_inactive(cb, ms) {
+function mvccInactive(cb, ms) {
 	let _timer = undefined;
 
 	//
